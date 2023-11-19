@@ -7,7 +7,7 @@
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "build": "yarn install --legacy-peer-deps && yarn install --legacy-peer-deps --prefix frontend && yarn build --prefix frontend",
-    "build-fr": "npm run build --prefix frontend"
+    "build-fr": "yarn build --prefix frontend"
   },
   "keywords": [
     "mern",
