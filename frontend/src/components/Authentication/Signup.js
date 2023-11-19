@@ -60,7 +60,7 @@ const Signup = () => {
         },
         config
       );
-      console.log(data);
+      console.log("Registration data: ", data);
       toast({
         title: "Registration Successful",
         status: "success",
